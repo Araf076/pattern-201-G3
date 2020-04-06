@@ -2,10 +2,13 @@ __author__ = 'Erdene-Ochir Tuguldur'
 __all__ = ['E', 'D', 'C', 'HighwayBlock', 'GatedConvBlock', 'ResidualBlock']
 
 import torch.nn as nn
+
+#Applies a 1D convolution over an input signal composed of several input planes.
+#torch.nn.functional.conv1d(input, weight, bias=None, stride=1, padding=0, dilation=1, groups=1) → Tensor
+#https://pytorch.org/docs/stable/nn.functional.html
 import torch.nn.functional as F
 
 from hparams import HParams as hp
-
 
 class LayerNorm(nn.LayerNorm):
     def __init__(self, normalized_shape, eps=1e-5, elementwise_affine=True):

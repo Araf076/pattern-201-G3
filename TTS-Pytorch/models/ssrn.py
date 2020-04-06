@@ -75,5 +75,7 @@ class SSRN(nn.Module):
 
     def forward(self, x):
         Z_logit = self.layers(x)
-        Z = F.sigmoid(Z_logit)
+
+        #Z = F.sigmoid(Z_logit) # nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+        Z = torch.sigmoid(Z_logit)
         return Z_logit, Z

@@ -5,7 +5,7 @@ __author__ = 'Erdene-Ochir Tuguldur'
 import sys
 import time
 import argparse
-from tqdm import *
+from tqdm import *		#show a smart progress meter
 
 import numpy as np
 
@@ -162,6 +162,8 @@ while True:
 
     valid_epoch_loss = train(epoch, phase='valid')
     print("valid epoch loss %f" % valid_epoch_loss)
+    
+    print("")
 
     epoch += 1
     if global_step >= hp.text2mel_max_iteration:

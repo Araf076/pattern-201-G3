@@ -148,8 +148,8 @@ class Text2Mel(nn.Module):
             vocab: vocabulary
             d: Text2Mel dim
         Input:
-            L: (B, N) text inputs
-            S: (B, f, T) melspectrograms
+            L: (B, N) text inputs           # batch size and text count
+            S: (B, f, T) melspectrograms    # batch size, number of melspectrogram bins and time
         Outputs:
             Y_logit: logit of Y
             Y: predicted melspectrograms
@@ -164,7 +164,10 @@ class Text2Mel(nn.Module):
     def forward(self, L, S, monotonic_attention=False):
         K, V = self.text_enc(L)
         Q = self.audio_enc(S)
-        A = torch.bmm(K.permute(0, 2, 1), Q) / np.sqrt(self.d)
+
+        #torch.bmm(input, mat2, out=None) → Tensor
+        #Performs a batch matrix-matrix product of matrices stored in input and mat2        
+        A = torch.bmm(K.permute(0, 2, 1), Q) / np.sqrt(self.d)      
 
         if monotonic_attention:
             # TODO: vectorize instead of loops
@@ -182,5 +185,7 @@ class Text2Mel(nn.Module):
         R = torch.bmm(V, A)
         R_prime = torch.cat((R, Q), 1)
         Y_logit = self.audio_dec(R_prime)
-        Y = F.sigmoid(Y_logit)
+
+        #Y = F.sigmoid(Y_logit)      # nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+        Y = torch.sigmoid(Y_logit)
         return Y_logit, Y, A
