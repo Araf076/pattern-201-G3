@@ -1,5 +1,4 @@
-PyTorch implementation of
-[Efficiently Trainable Text-to-Speech System Based on Deep Convolutional Networks with Guided Attention](https://arxiv.org/abs/1710.08969) based on the following projects:
+Helpful resources to understand the overall project
 
 ## Blog Posts
 * [Review: Highway Networks — Gating Function To Highway (Image Classification)](https://towardsdatascience.com/review-highway-networks-gating-function-to-highway-image-classification-5a33833797b5)
@@ -9,6 +8,8 @@ PyTorch implementation of
 
 ## Youtube Videos
 * [Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
+* 
+* 
 
 ## QA in StackOverFlow, Pytorch, etc.
 * https://discuss.pytorch.org/t/extract-feature-maps-from-intermediate-layers-without-modifying-forward/1390
