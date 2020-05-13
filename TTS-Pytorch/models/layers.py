@@ -21,7 +21,7 @@ class LayerNorm(nn.LayerNorm):
         y = y.permute(0, 2, 1)  # reverse
         return y
 
-
+# Text2Mel hidden unit dimension
 class D(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, dilation, weight_init='none', normalization='weight', nonlinearity='linear'):
         """1D Deconvolution."""
@@ -50,7 +50,7 @@ class D(nn.Module):
             y = F.relu(y, inplace=True)
         return y
 
-
+# SSRN hidden unit dimension
 class C(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size, dilation, causal=False, weight_init='none', normalization='weight', nonlinearity='linear'):
         """1D convolution.
@@ -91,7 +91,7 @@ class C(nn.Module):
             y = F.relu(y, inplace=True)
         return y
 
-
+# embedding dimension
 class E(nn.Module):
     def __init__(self, num_embeddings, embedding_dim):
         super(E, self).__init__()
@@ -122,7 +122,7 @@ class HighwayBlock(nn.Module):
         sigH1 = F.sigmoid(H1)
         return sigH1 * H2 + (1 - sigH1) * x
 
-
+# Text2Mel basicBlock options
 class GatedConvBlock(nn.Module):
     def __init__(self, d, k, delta, causal=False, weight_init='none', normalization='weight'):
         """Gated convolutional layer: https://arxiv.org/abs/1612.08083
