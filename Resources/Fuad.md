@@ -64,7 +64,7 @@ Tutorial link: [Complete Machine Learning and Data Science Zero to Mastery](http
 
 # Youtube Videos
 #### Andrew-Ng Courses 
-   1.    [Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  [completed]](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0 "Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  [completed]")  
+   1.    [Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  [completed]](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0 "Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  ")  [completed]
    
 
    
