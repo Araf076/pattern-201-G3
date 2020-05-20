@@ -66,6 +66,8 @@ Tutorial link: [Complete Machine Learning and Data Science Zero to Mastery](http
 #### Andrew-Ng Courses 
    1.    [Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  [completed]](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0 "Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  [completed]")  
    
+   [Certificate of Course-1 ](https://www.coursera.org/account/accomplishments/verify/UWAJUVYMYMQN?utm_source=link&utm_campaign=copybutton_certificate&utm_product=course "Certificate of Course-1 ")
+   
    2.  [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Course 2 of the Deep Learning Specialization)   (week 1 running)](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Course 2 of the Deep Learning Specialization)   (week 1 running)")
 
 
