@@ -1,7 +1,7 @@
 Helpful resources to understand the overall project
 
 
-# Python for ML (basic)
+#  <font color='darkblue'> Python for ML (basic) <font>
 
 
 
