@@ -64,11 +64,16 @@ Tutorial link: [Complete Machine Learning and Data Science Zero to Mastery](http
 
 # Youtube Videos
 #### Andrew-Ng Courses 
-   1.    [Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  [completed]](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0 "Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  ")  [completed]
+   1.    [Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  ](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0 "Neural Networks and Deep Learning (Course 1 of the Deep Learning Specialization)  ")  [Full]
    
 
    
-   2.  [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Course 2 of the Deep Learning Specialization)](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Course 2 of the Deep Learning Specialization)") (week 1 running)
+   2.  [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Course 2 of the Deep Learning Specialization)](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization (Course 2 of the Deep Learning Specialization)") [Full]
+   
+   
+   3. [Structuring Machine Learning Projects](https://www.youtube.com/playlist?list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b "Structuring Machine Learning Projects") [week 1]
+
+   4. [Convolutional Neural Networks](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF "Convolutional Neural Networks") [week 2]
 
 
 
