@@ -5,7 +5,7 @@ Helpful resources to understand the overall project
 *
 *
 * 
-
+https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8
 ## Youtube Videos
 * 
 * 
