@@ -19,3 +19,5 @@ Helpful resources to understand the overall project
 * [TACOTRON: Towards end-to-end speech synthesis](https://arxiv.org/abs/1703.10135)
 * [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
 * [TTS for low resource languages: A Bangla synthesizer](https://research.google/pubs/pub45300/)
+
+REVIEW [Link](https://drive.google.com/file/d/1EtrjmYewYo34iQCfpUqm4I2q8UPiU0yx/view?usp=sharing)
