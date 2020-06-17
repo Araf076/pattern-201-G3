@@ -20,4 +20,4 @@ Helpful resources to understand the overall project
 * [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
 * [TTS for low resource languages: A Bangla synthesizer](https://research.google/pubs/pub45300/)
 
-REVIEW [Link](https://drive.google.com/file/d/1EtrjmYewYo34iQCfpUqm4I2q8UPiU0yx/view?usp=sharing)
+REVIEW [Link](https://drive.google.com/file/d/1zlbbsfglypsaBUyGPePxOVKhbRm10QjM/view?usp=sharing)
